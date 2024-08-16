@@ -1,0 +1,27 @@
+# Ignore the mavlink directory
+mavlink/
+
+# Ignore build files
+build/
+*.o
+*.out
+*.hex
+*.elf
+
+# Ignore Arduino-specific files
+*.ino.*
+*.ino.cpp
+*.ino.d
+
+# Ignore Python virtual environment directory (if any)
+venv/
+env/
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
